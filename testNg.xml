@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="e-commerce" verbose="1" >
+
+    <test name="Cart test" >
+        <classes>
+            <class name="Cart.AddToCart"></class>
+            <class name="Cart.UpdateCart"></class>
+            <class name="Cart.DeleteCart"></class>
+            <class name="Cart.GetAllCarts"></class>
+        </classes>
+    </test>
+
+
+    <test name="Productes test" >
+        <classes>
+            <class name="Productes.CreateProd"></class>
+            <class name="Productes.DeletePrd"></class>
+            <class name="Productes.GetProductes"></class>
+            <class name="Productes.UpdateProd"></class>
+        </classes>
+    </test>
+
+    <test name="Users test" >
+        <classes>
+            <class name="Users.AddUser"></class>
+            <class name="Users.userLogin"></class>
+            <class name="Users.GetAllUsers"></class>
+        </classes>
+    </test>
+
+
+</suite>
